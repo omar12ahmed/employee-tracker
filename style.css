@@ -3,7 +3,53 @@ body, html {
     padding: 0;
     box-sizing: border-box;
 }
+label{
+    display: inline-block;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+
+
+.title{
+    font-size: 5vh;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+#btn {
+  margin-left:25%;
+  padding: 3vh;
+  margin-bottom: 5vh;
+  border-radius: 20%;
+  background-color: #00862d;
+  color: white;
+  font-size: 3vh;
+  cursor: pointer;
+  
+}
+
+.delete-button{
+    padding: 2vh;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-size: 5vh;
+}
+
+.edit-button{
+    padding: 2vh;
+    border-radius: 10px;
+    font-size: 5vh;
+}
 
 table{
     border: 2px solid black;
